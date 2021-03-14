@@ -83,10 +83,10 @@ h1 {
 }
 
 .preview code {
+    font-family: monospace, serif;
     border-radius: 5px;
     color: white;
     background: rgb(51, 51, 51);
-    padding: 5px;
 }
 
 footer {
