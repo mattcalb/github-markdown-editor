@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 import ReactMarkdown from 'react-markdown';
 
+import gfm from 'remark-gfm'
+
 import gitHubMark from '../../assets/images/GitHub-Mark-32px.png';
 
 import './style.css';
@@ -28,7 +30,7 @@ function MainPage() {
             </header>
             <div className="editor-container">
                 <textarea className="editor" placeholder="Some markdown here..." value={input} onChange={e => handleChangeInput(e)}></textarea>
-                <ReactMarkdown children={input} className="preview" />
+                <ReactMarkdown plugins={[gfm]} children={input} className="preview" />
             </div>
             <footer>
                 <a href="https://github.com/mattcalb"><img src={gitHubMark} alt="GitHub Mark"/></a>
