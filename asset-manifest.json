@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/github-markdown-editor/static/css/main.5893f4e6.chunk.css",
-    "main.js": "/github-markdown-editor/static/js/main.f164ac45.chunk.js",
-    "main.js.map": "/github-markdown-editor/static/js/main.f164ac45.chunk.js.map",
+    "main.css": "/github-markdown-editor/static/css/main.dcbfa480.chunk.css",
+    "main.js": "/github-markdown-editor/static/js/main.fed2376a.chunk.js",
+    "main.js.map": "/github-markdown-editor/static/js/main.fed2376a.chunk.js.map",
     "runtime-main.js": "/github-markdown-editor/static/js/runtime-main.06050d14.js",
     "runtime-main.js.map": "/github-markdown-editor/static/js/runtime-main.06050d14.js.map",
     "static/js/2.4f64817b.chunk.js": "/github-markdown-editor/static/js/2.4f64817b.chunk.js",
     "static/js/2.4f64817b.chunk.js.map": "/github-markdown-editor/static/js/2.4f64817b.chunk.js.map",
     "index.html": "/github-markdown-editor/index.html",
-    "static/css/main.5893f4e6.chunk.css.map": "/github-markdown-editor/static/css/main.5893f4e6.chunk.css.map",
+    "static/css/main.dcbfa480.chunk.css.map": "/github-markdown-editor/static/css/main.dcbfa480.chunk.css.map",
     "static/js/2.4f64817b.chunk.js.LICENSE.txt": "/github-markdown-editor/static/js/2.4f64817b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.06050d14.js",
     "static/js/2.4f64817b.chunk.js",
-    "static/css/main.5893f4e6.chunk.css",
-    "static/js/main.f164ac45.chunk.js"
+    "static/css/main.dcbfa480.chunk.css",
+    "static/js/main.fed2376a.chunk.js"
   ]
 }
