@@ -24,17 +24,24 @@ function MainPage() {
   }
 
   return (
-    <div>
+    <main>
       <header>
-        <h1>GitHub Markdown Editor</h1>
-        <a
-          className="link"
-          href="https://guides.github.com/features/mastering-markdown/"
-        >
-          Learn GitHub Markdown
-        </a>
+        <h1>GitHub Markdown Editor</h1>  
+        <p>help developers write markdown</p>
+        <div className="link-container">
+          <a
+            className="link"
+            href="https://guides.github.com/features/mastering-markdown/"
+          >
+            Learn GitHub Markdown
+          </a>
+          <a
+            href="https://github.com/mattcalb/github-markdown-editor"
+          >
+            <img src={gitHubMark}></img>
+          </a>
+        </div>      
       </header>
-    
       <div className="editor-container">
         <textarea
           className="editor"
@@ -44,13 +51,7 @@ function MainPage() {
         ></textarea>
         <ReactMarkdown plugins={[gfm]} children={input} className="preview" />
       </div>
-      
-      <footer>
-        <a href="https://github.com/mattcalb">
-          <img src={gitHubMark} alt="GitHub Mark" />
-        </a>
-      </footer>
-    </div>
+    </main>
   );
 }
 
