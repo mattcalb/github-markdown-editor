@@ -45,6 +45,7 @@ h1 {
 }
 
 .editor, .preview {
+    color: rgb(56, 56, 56);
     font-size: 18px;
     width: 50%;
     height: 60vh;
