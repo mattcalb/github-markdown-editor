@@ -38,7 +38,7 @@ function MainPage() {
           <a
             href="https://github.com/mattcalb/github-markdown-editor"
           >
-            <img src={gitHubMark}></img>
+            <img src={gitHubMark} alt="github-mark"></img>
           </a>
         </div>      
       </header>
