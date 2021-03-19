@@ -110,6 +110,7 @@ img {
 
 .preview {
     overflow-y: auto;
+    line-height: 1.5;
 }
 
 .preview ul, .preview ol {
@@ -118,8 +119,8 @@ img {
 
 .preview code {
     font-family: monospace, serif;
-    border-radius: 5px;
-    color: white;
-    background: rgb(51, 51, 51);
-    padding: 1px;
+    border-radius: 6px;
+    color: rgb(56, 56, 56);
+    background: rgb(218, 218, 218);
+    padding: 2px;
 }
