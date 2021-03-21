@@ -10,7 +10,7 @@ import "./style.css";
 
 function MainPage() {
   const [input, setInput] = useState(
-    JSON.parse(localStorage.getItem("input")) || ""
+    JSON.parse(localStorage.getItem("gh-markdown-editor:input")) || ""
   );
 
   function handleChangeInput(e) {
@@ -20,7 +20,7 @@ function MainPage() {
   }
 
   function saveInputToLocalStorage(input) {
-    localStorage.setItem("input", JSON.stringify(input));
+    localStorage.setItem("gh-markdown-editor:input", JSON.stringify(input));
   }
 
   return (
