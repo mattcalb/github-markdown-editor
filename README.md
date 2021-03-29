@@ -3,7 +3,6 @@ A markdown editor for GitHub, to help developers learn and write markdown. The m
 # Wich technologies were used?
 - React
 - react-markdown (check the repository here: [https://github.com/remarkjs/react-markdown](https://github.com/remarkjs/react-markdown)
-- GitHub Pages
 # How to run it?
 1. Install all dependencies `yarn`
 2. Run `yarn start`
